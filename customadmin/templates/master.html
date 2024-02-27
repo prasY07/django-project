@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block master %}
+
+<div class="container-scroller">
+  {% include "include/header.html" %}
+
+  <div class="container-fluid page-body-wrapper">
+    {% include "include/sidebar.html" %}
+
+    <div class="main-panel">
+      {% block content %} 
+
+      {% endblock %} 
+      {% include "include/footer.html" %}
+    </div>
+  </div>
+</div>
+{% endblock %}

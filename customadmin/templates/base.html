@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Melody Admin</title>
+  <link rel="stylesheet" href="{% static 'customadmin/static/vendors/iconfonts/font-awesome/css/all.min.css' %}">
+  <link rel="stylesheet" href="{% static 'customadmin/static/vendors/css/vendor.bundle.base.css' %}">
+  <link rel="stylesheet" href="{% static 'customadmin/static/vendors/css/vendor.bundle.addons.css' %}">
+
+  <link rel="stylesheet" href="{% static 'customadmin/static/css/style.css' %}">
+  <link rel="shortcut icon" href="http://www.urbanui.com/" />
+</head>
+<body>
+
+    {% block master %} 
+
+      {% endblock %} 
+  <script src="{% static 'customadmin/static/vendors/js/vendor.bundle.base.js' %}"></script>
+  <script src="{% static 'customadmin/static/vendors/js/vendor.bundle.addons.js' %}"></script>
+  <script src="{% static 'customadmin/static/js/off-canvas.js' %}"></script>
+  <script src="{% static 'customadmin/static/js/hoverable-collapse.js' %}"></script>
+  <script src="{% static 'customadmin/static/js/misc.js' %}"></script>
+  <script src="{% static 'customadmin/static/js/settings.js' %}"></script>
+  <script src="{% static 'customadmin/static/js/todolist.js' %}"></script>
+  <script src="{% static 'customadmin/static/js/dashboard.js' %}"></script>
+</body>
+
+
+</html>
